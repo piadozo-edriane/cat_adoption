@@ -1,14 +1,39 @@
     img{
-        margin-top: 50px;
-        height: 400px;
-        width: 500px;
+        margin-top: 10%;
+        padding: 0px;
+        left: 5%;
+        height: 500px;
+        width: 400px;
         position: relative;
+    }
+
+    #cats_available{
+        padding: 30px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        gap: 20px;
+    }
+   
+    #garfield{
+        width: 400px;
+        height: 300px;
+    }
+    
+    #tilapia{
+        width: 400px;
+        height: 300px;
+    }
+    
+    #munchkin{
+        width: 400px;
+        height: 300px;
     }
 
     p{
         position: absolute;
         text-align: center;
-        top: 40%;
+        top: 30%;
         left: 70%;
         transform: translate(-50%, -50%);
         font-size: 24px;
